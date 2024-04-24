@@ -1,0 +1,17 @@
+.scrollBAr {
+  overflow-x: auto;
+}
+
+.scrollBAr::-webkit-scrollbar {
+  height: 2px;
+  border-radius: 6px;
+}
+
+.scrollBAr::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollBAr::-webkit-scrollbar-thumb {
+  background: rgb(101, 99, 99); 
+  border-radius: 10px; 
+}
